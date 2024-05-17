@@ -1,38 +1,39 @@
 .App {
-  text-align: center;
+  padding: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  padding: 20px;
+  background-color: rgb(236, 236, 236);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  font-size: 16px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input {
+  height: 25px;
+  font-size: 16px;
+  margin: 10px;
+}
+select {
+  height: 25px;
+  font-size: 16px;
+  margin: 10px;
+}
+li {
+  margin: 20px;
+  font-size: 18px;
+}
+button {
+  height: 38px;
+  /* padding: 10px; */
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: blueviolet;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.danger {
+  background-color: brown;
+  color: white;
 }
